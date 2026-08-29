@@ -1,117 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dhananjay Nerkar - Data Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dhananjay Nerkar's AI and ML engineering portfolio: RAG, LLM applications, applied machine learning, and data engineering.">
+  <title>Dhananjay Nerkar | AI/ML Engineer Candidate</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Dhananjay Nerkar home">DN<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#projects">Selected work</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="https://github.com/dhananjaynerkar" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
 
-  <h1>Hey 👋, I'm Dhananjay Nerkar</h1>
-  <h3>Data Analyst | ML Learner | Turning Data into Decisions with Python & BI Tools</h3>
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> AI / ML ENGINEERING PORTFOLIO</p>
+          <h1>Building AI systems that <span>show their work.</span></h1>
+          <p class="lede">I build evidence-grounded AI applications and evaluation-aware machine-learning systems with Python.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore selected work <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/dhananjay-nerkar" target="_blank" rel="noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="boundary"><strong>Portfolio boundary</strong> · Production deployment, cloud ownership, user scale, and business impact are not claimed unless the linked repository provides evidence.</p>
+        </div>
 
-  <div class="badges center">
-    <a href="mailto:nerkarr.dhananjay@gmail.com">
-      <img src="https://img.shields.io/badge/Email Dhananjay-red?style=flat-square&logo=gmail" />
-    </a>
-    <a href="https://www.linkedin.com/in/dhananjay-da/">
-      <img src="https://img.shields.io/badge/LinkedIn Dhananjay-blue?style=flat-square&logo=linkedin" />
-    </a>
-    <a href="https://github.com/Dhananjay1509">
-      <img src="https://img.shields.io/badge/GitHub Dhananjay1509-181717?style=flat-square&logo=github" />
-    </a>
+        <div class="build-map" aria-label="Portfolio capability map">
+          <div class="map-heading"><span>BUILD MAP</span><span class="map-status"><i></i> evidence-led</span></div>
+          <div class="map-flow">
+            <div class="map-node node-cyan"><span class="node-index">01</span><strong>DOCUMENTS</strong><small>PDF / OCR<br>provenance</small></div>
+            <span class="map-arrow" aria-hidden="true">→</span>
+            <div class="map-node node-blue"><span class="node-index">02</span><strong>RETRIEVAL</strong><small>hybrid search<br>pgvector</small></div>
+            <span class="map-arrow" aria-hidden="true">→</span>
+            <div class="map-node node-violet"><span class="node-index">03</span><strong>MODELS</strong><small>RAG / fraud<br>evaluation</small></div>
+            <span class="map-arrow" aria-hidden="true">→</span>
+            <div class="map-node node-green"><span class="node-index">04</span><strong>APPS</strong><small>FastAPI /<br>Streamlit</small></div>
+          </div>
+          <div class="map-footer"><span>PYTHON</span><span>SQL</span><span>TESTS</span><span>ARTIFACTS</span></div>
+        </div>
+      </section>
+
+      <section class="signal-grid" aria-label="Core capabilities">
+        <article class="signal-card"><span class="signal-number">01</span><h2>Grounded generation</h2><p>Local LLM inference with retrieval, citations, provenance, and no-evidence handling.</p></article>
+        <article class="signal-card"><span class="signal-number">02</span><h2>Retrieval systems</h2><p>Dense and hybrid search with pgvector, rank fusion, reranking, and access controls.</p></article>
+        <article class="signal-card"><span class="signal-number">03</span><h2>Evaluation-aware ML</h2><p>Leakage auditing, temporal validation, imbalance handling, threshold tuning, and task-appropriate metrics.</p></article>
+        <article class="signal-card"><span class="signal-number">04</span><h2>AI application engineering</h2><p>FastAPI services, Streamlit scoring, serialized artifacts, tests, and readiness checks.</p></article>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Four systems worth opening.</h2>
+          <p>Curated from the repositories with the clearest implementation and evaluation evidence.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-top"><span class="project-type">01 · RAG / WORKFLOW PLATFORM</span><span class="project-state">LOCAL-FIRST</span></div>
+            <h3>AI-Powered Port Management System</h3>
+            <p>Document AI platform using PDF/OCR ingestion, PostgreSQL full-text search, pgvector, rank fusion, reranking, ACL filtering, page-level provenance, citation validation, and local Ollama generation.</p>
+            <div class="checkpoint"><span>DOCUMENTED CHECKPOINT</span><strong>AnyHit@5 <b>0.89</b> · EvidenceCoverage@5 <b>0.85</b></strong><small>10/10 mapped facts covered · 9/9 citation-valid replays</small></div>
+            <a class="project-link" href="https://github.com/dhananjaynerkar/ai_powered_port_management_system" target="_blank" rel="noreferrer">Open repository <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">02 · FRAUD ML</span><span class="project-state">DECISION SUPPORT</span></div>
+            <h3>ClaimShield</h3>
+            <p>TensorFlow/Keras insurance-fraud workflow with leakage-aware preprocessing, training-only imbalance handling, validation-based threshold selection, and reloadable inference artifacts.</p>
+            <div class="checkpoint"><span>TEST CHECKPOINT</span><strong>ROC-AUC <b>0.8161</b> · PR-AUC <b>0.1829</b></strong><small>Fraud recall 0.8811 at threshold 0.30</small></div>
+            <a class="project-link" href="https://github.com/dhananjaynerkar/claimshield" target="_blank" rel="noreferrer">Open repository <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">03 · TABULAR ML</span><span class="project-state">TIME-AWARE</span></div>
+            <h3>Insurance Fraud &amp; Claim Risk</h3>
+            <p>Reusable local pipeline with temporal validation, leakage auditing, feature engineering, imbalance handling, threshold tuning, business-loss analysis, and Streamlit scoring.</p>
+            <div class="checkpoint checkpoint-muted"><span>STATUS</span><strong>Evaluation-aware local pipeline</strong><small>Recorded test-window checkpoint is weak; no production success is claimed.</small></div>
+            <a class="project-link" href="https://github.com/dhananjaynerkar/insurerisk" target="_blank" rel="noreferrer">Open repository <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">04 · DATA / ML ENGINEERING</span><span class="project-state">CASE STUDY</span></div>
+            <h3>Smart Education Analytics</h3>
+            <p>OULAD-based workflow covering RDDs, DataFrames, Spark SQL, ETL feature preparation, Spark ML, Docker packaging, Kubernetes manifests, and CI checks.</p>
+            <div class="checkpoint"><span>HOLDOUT CHECKPOINT</span><strong>AUC <b>0.9706</b> · F1 <b>0.9142</b></strong><small>Accuracy 0.9142 for the provided case-study outcome proxy</small></div>
+            <a class="project-link" href="https://github.com/dhananjaynerkar/case_study_apache_spark" target="_blank" rel="noreferrer">Open repository <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="more-work">Also see <a href="https://github.com/dhananjaynerkar/HealthBot" target="_blank" rel="noreferrer">HealthBot</a> for structured symptom matching and dense NLP retrieval. It is an educational local demo, not a diagnosis system.</p>
+      </section>
+
+      <section class="section approach-section" id="approach">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">ENGINEERING APPROACH</p>
+          <h2>Make the system inspectable.</h2>
+        </div>
+        <div class="approach-grid">
+          <div class="approach-item"><span>01</span><div><h3>Ground the output</h3><p>Connect generated answers to retrieved context, citations, provenance, and explicit no-evidence behavior.</p></div></div>
+          <div class="approach-item"><span>02</span><div><h3>Measure the boundary</h3><p>Keep evaluation splits, thresholds, artifacts, and limitations visible beside the result.</p></div></div>
+          <div class="approach-item"><span>03</span><div><h3>Ship responsibly</h3><p>Use tests, configuration, readiness checks, and clear boundaries around local or unverified deployment.</p></div></div>
+        </div>
+      </section>
+
+      <section class="contact-card" id="contact">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2>Interested in practical AI systems?</h2><p>Open to AI Engineer, ML Engineer, GenAI Engineer, LLM Engineer, and Software Engineer opportunities.</p></div>
+        <div class="contact-links"><a href="mailto:nerkarr.dhananjay@gmail.com">Email <span>↗</span></a><a href="https://www.linkedin.com/in/dhananjay-nerkar" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/dhananjaynerkar" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© 2026 DHANANJAY NERKAR</span><span>AI / ML · RAG · PYTHON · SQL</span></footer>
   </div>
-
-  <hr>
-
-  <p><strong>🌟 Welcome to my world of data!</strong></p>
-  <p>
-    I'm a driven and proactive individual with a strong sense of commitment and a passion for continuous learning.
-    Eager to apply analytical skills and data-driven thinking to solve real-world problems.
-    Currently seeking a position as a <strong>Data Analyst</strong> to leverage my curiosity and growing experience in the data field.
-  </p>
-
-  <ul>
-    <li>🔍 Exploring <strong>Machine Learning</strong>, <strong>EDA</strong>, and <strong>Power BI & Tableau</strong></li>
-    <li>🚀 Open to data analyst and data science opportunities</li>
-    <li>📊 Skilled in Python, SQL, EDA, ML, Streamlit, Power BI</li>
-    <li>📚 Certified by Coding Ninjas, PW Skills, DataCamp, LinkedIn Learning</li>
-  </ul>
-
-  <hr>
-
-  <h2>🚀 Projects That I’m Proud Of</h2>
-
-  <table>
-    <tr>
-      <th>🔧 Project</th>
-      <th>🌟 Highlights</th>
-      <th>🔗 Link</th>
-    </tr>
-    <tr>
-      <td>🎯 Advanced Geofencing System</td>
-      <td>Real-time geolocation, marketing triggers, Firebase integration</td>
-      <td><a href="https://github.com/Dhananjay1509/Advanced-Geofencing">Repo</a></td>
-    </tr>
-    <tr>
-      <td>📊 Power BI Sales Dashboard</td>
-      <td>Sales trends, KPI visualizations, auto-refresh enabled</td>
-      <td><a href="https://github.com/Dhananjay1509/Bharat-Soft-Solution/tree/main/Power%20BI/T1">Repo</a></td>
-    </tr>
-    <tr>
-      <td>📈 University Admission Predictor</td>
-      <td>Linear Regression + Streamlit web app, 89.7% accuracy</td>
-      <td><a href="https://github.com/Dhananjay1509/Admission_LR">Repo</a></td>
-    </tr>
-    <tr>
-      <td>🧾 Student Spending Analysis</td>
-      <td>Row-level security (RLS), interactive Power BI dashboard</td>
-      <td><a href="https://github.com/Dhananjay1509">Pinned Repo</a></td>
-    </tr>
-  </table>
-
-  <hr>
-
-  <h2>🧠 My Stack</h2>
-
-  <h3 class="center">Programming Languages</h3>
-  <div class="center badges">
-    <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white" />
-  </div>
-
-  <h3 class="center">Data Libraries & Frameworks</h3>
-  <div class="center badges">
-    <img src="https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas" />
-    <img src="https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy" />
-    <img src="https://img.shields.io/badge/-Matplotlib-11557C?style=flat-square" />
-    <img src="https://img.shields.io/badge/-Seaborn-3D3D3D?style=flat-square" />
-    <img src="https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square" />
-    <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square" />
-    <img src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask" />
-  </div>
-
-  <h3 class="center">BI & Visualization Tools</h3>
-  <div class="center badges">
-    <img src="https://img.shields.io/badge/-PowerBI-F2C811?style=flat-square&logo=PowerBI" />
-    <img src="https://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=Tableau" />
-    <img src="https://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoft-excel" />
-  </div>
-
-  <hr>
-
-  <h2>📬 Let's Connect</h2>
-  <ul>
-    <li>📧 Email: nerkarr.dhananjay@gmail.com</li>
-    <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/dhananjay-da/">Dhananjay Nerkar</a></li>
-    <li>⭐ GitHub: <a href="https://github.com/Dhananjay1509">Dhananjay1509</a></li>
-    <li>🌐 Portfolio: Coming Soon!</li>
-  </ul>
-
-  <div class="center"><em>“Data is the new oil, and I’m here to refine it.”</em></div>
-  <div class="center">✨ <strong>Thanks for stopping by!</strong></div>
-
 </body>
 </html>
+
