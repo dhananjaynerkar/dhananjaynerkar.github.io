@@ -1,15 +1,29 @@
-# Hi 👋, I'm Dhananjay
+# Dhananjay Nerkar — AI/ML Portfolio
 
 ## About
 
-A lightweight static personal profile website. The repository is intended for presenting personal information and links; it is separate from the AI/ML project repositories.
+This repository contains the static AI/ML portfolio site for [Dhananjay Nerkar](https://github.com/dhananjaynerkar). It presents selected, evidence-backed work across RAG, LLM applications, applied machine learning, and data/ML engineering.
 
-### Data Analyst | Pythonista | ML Enthusiast
+## Live site
 
-![Profile views](https://komarev.com/ghpvc/?username=Dhananjay1509&color=blue)
+After GitHub Pages is enabled, the site will be available at:
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Dhananjay1509&theme=gruvbox)](https://github.com/ryo-ma/github-profile-trophy)
+https://dhananjaynerkar.github.io
 
-![Dhananjay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dhananjay1509&show_icons=true&theme=radical)
+## Local preview
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dhananjay1509&layout=compact&theme=radical)
+From the repository root, run:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
+
+## Structure
+
+- `index.html` — portfolio content and accessible navigation.
+- `css/style.css` — responsive visual system and layout.
+
+The site uses only repository-backed project descriptions and clearly labels evaluation checkpoints and deployment boundaries. It does not claim production scale, cloud ownership, or business impact without supporting evidence.
+
